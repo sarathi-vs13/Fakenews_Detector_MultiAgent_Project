@@ -1,0 +1,263 @@
+{
+  "run_at": "2026-06-19T12:46:22.562446",
+  "total_claims": 15,
+  "accuracy_pct": 60.0,
+  "avg_latency_ms": 10064,
+  "avg_reasoning_quality": 3.8,
+  "high_hallucination_count": 2,
+  "total_duration_s": 195,
+  "per_category": {
+    "history": {
+      "accuracy_pct": 100.0,
+      "total": 1,
+      "correct": 1
+    },
+    "conspiracy": {
+      "accuracy_pct": 0.0,
+      "total": 2,
+      "correct": 0
+    },
+    "health_misinformation": {
+      "accuracy_pct": 100.0,
+      "total": 2,
+      "correct": 2
+    },
+    "popular_myth": {
+      "accuracy_pct": 33.3,
+      "total": 3,
+      "correct": 1
+    },
+    "science": {
+      "accuracy_pct": 66.7,
+      "total": 3,
+      "correct": 2
+    },
+    "health_myth": {
+      "accuracy_pct": 50.0,
+      "total": 2,
+      "correct": 1
+    },
+    "neuroscience_myth": {
+      "accuracy_pct": 100.0,
+      "total": 1,
+      "correct": 1
+    },
+    "geography": {
+      "accuracy_pct": 100.0,
+      "total": 1,
+      "correct": 1
+    }
+  },
+  "results": [
+    {
+      "id": "001",
+      "claim": "The Eiffel Tower was built in 1889 for the World's Fair in Paris.",
+      "expected": "Likely True",
+      "predicted": "Likely True",
+      "exact_match": true,
+      "composite_score": 92,
+      "latency_ms": 5684,
+      "reasoning_quality": 4,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI provides a clear explanation for the verdict, citing the high composite score and evidence confidence. However, the critic-adjusted confidence raises valid concerns about potential biases, which slightly reduces the overall reasoning quality.",
+      "category": "history",
+      "error": null
+    },
+    {
+      "id": "002",
+      "claim": "NASA confirmed the Moon landing was staged in a Hollywood studio.",
+      "expected": "Likely Fake",
+      "predicted": "Likely True",
+      "exact_match": false,
+      "composite_score": 75,
+      "latency_ms": 5507,
+      "reasoning_quality": 3,
+      "hallucination_risk": "High",
+      "reasoning_notes": "The explanation misrepresents the 2019 study, which does not support the claim of a staged Moon landing. It also fails to account for the overwhelming evidence that confirms the authenticity of the Moon landing.",
+      "category": "conspiracy",
+      "error": null
+    },
+    {
+      "id": "003",
+      "claim": "Drinking bleach can cure COVID-19 according to WHO.",
+      "expected": "Likely Fake",
+      "predicted": "Likely Fake",
+      "exact_match": true,
+      "composite_score": 90,
+      "latency_ms": 5577,
+      "reasoning_quality": 4,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI provided a clear, evidence-based explanation for why the claim is likely fake. However, the explanation could have been more concise and the confidence in the finding could have been expressed more explicitly.",
+      "category": "health_misinformation",
+      "error": null
+    },
+    {
+      "id": "004",
+      "claim": "Vaccines cause autism according to a 1998 Lancet study.",
+      "expected": "Likely Fake",
+      "predicted": "Likely Fake",
+      "exact_match": true,
+      "composite_score": 76,
+      "latency_ms": 5137,
+      "reasoning_quality": 4,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The explanation correctly cites the retraction of the original study and provides evidence of subsequent studies, but could be more detailed in addressing potential counterarguments or providing additional context.",
+      "category": "health_misinformation",
+      "error": null
+    },
+    {
+      "id": "005",
+      "claim": "The Great Wall of China is visible from space with the naked eye.",
+      "expected": "Likely Fake",
+      "predicted": "Likely Fake",
+      "exact_match": true,
+      "composite_score": 90,
+      "latency_ms": 5287,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI provides a clear and accurate explanation of the claim's inaccuracy, supported by multiple credible sources, and includes relevant context about the claim's origin.",
+      "category": "popular_myth",
+      "error": null
+    },
+    {
+      "id": "006",
+      "claim": "Albert Einstein failed mathematics in school.",
+      "expected": "Likely Fake",
+      "predicted": "Uncertain",
+      "exact_match": false,
+      "composite_score": 68,
+      "latency_ms": 5308,
+      "reasoning_quality": 4,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The explanation correctly points out the improvement in Einstein's mathematics abilities, but fails to provide a clear verdict based on the available information. The verdict 'Uncertain' seems to be a safe choice given the limitations of the evidence.",
+      "category": "popular_myth",
+      "error": null
+    },
+    {
+      "id": "007",
+      "claim": "The human body has 206 bones in adulthood.",
+      "expected": "Likely True",
+      "predicted": "Likely True",
+      "exact_match": true,
+      "composite_score": 89,
+      "latency_ms": 11996,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The explanation accurately reflects the confidence in the evidence and source reliability, but could be more specific about the critic's adjustments.",
+      "category": "science",
+      "error": null
+    },
+    {
+      "id": "008",
+      "claim": "5G towers spread the coronavirus by weakening immune systems.",
+      "expected": "Likely Fake",
+      "predicted": "Likely True",
+      "exact_match": false,
+      "composite_score": 90,
+      "latency_ms": 14194,
+      "reasoning_quality": 3,
+      "hallucination_risk": "Medium",
+      "reasoning_notes": "The AI incorrectly assigns high confidence to the claim despite the lack of scientific evidence and the consensus from credible health organizations. The explanation also shows a lack of understanding of the original expected verdict, which was 'Likely Fake'.",
+      "category": "conspiracy",
+      "error": null
+    },
+    {
+      "id": "009",
+      "claim": "Climate change is primarily caused by human activities according to scientific consensus.",
+      "expected": "Likely True",
+      "predicted": "Likely True",
+      "exact_match": true,
+      "composite_score": 88,
+      "latency_ms": 12733,
+      "reasoning_quality": 4,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The explanation effectively uses relevant evidence from the IPCC to support the claim. However, it could be further improved by addressing some of the potential criticisms mentioned, rather than simply stating that they \"raise valid points\".",
+      "category": "science",
+      "error": null
+    },
+    {
+      "id": "010",
+      "claim": "Eating carrots improves your night vision beyond normal levels.",
+      "expected": "Likely Fake",
+      "predicted": "Uncertain",
+      "exact_match": false,
+      "composite_score": 54,
+      "latency_ms": 12263,
+      "reasoning_quality": 4,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The explanation is clear and logical, providing a sound critique of the claim. However, the predicted verdict 'Uncertain' is not as definitive as expected, given the evidence presented.",
+      "category": "health_myth",
+      "error": null
+    },
+    {
+      "id": "011",
+      "claim": "The Amazon rainforest produces 20% of the world's oxygen.",
+      "expected": "Uncertain",
+      "predicted": "ERROR",
+      "exact_match": false,
+      "composite_score": 0,
+      "latency_ms": 15027,
+      "reasoning_quality": 0,
+      "hallucination_risk": "High",
+      "reasoning_notes": "",
+      "category": "science",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kktx7edef1zsbr28t34vxtqj` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5725, Requested 485. Please try again in 2.1s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "id": "012",
+      "claim": "Napoleon Bonaparte was unusually short for his time.",
+      "expected": "Likely Fake",
+      "predicted": "Uncertain",
+      "exact_match": false,
+      "composite_score": 70,
+      "latency_ms": 13606,
+      "reasoning_quality": 2,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI failed to provide a clear verdict, instead opting for uncertainty, despite having sufficient evidence to contradict the claim. The explanation is thorough but misses the mark in drawing a definitive conclusion.",
+      "category": "popular_myth",
+      "error": null
+    },
+    {
+      "id": "013",
+      "claim": "Humans only use 10% of their brain.",
+      "expected": "Likely Fake",
+      "predicted": "Likely Fake",
+      "exact_match": true,
+      "composite_score": 66,
+      "latency_ms": 12862,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "Reasoning shows a clear understanding of the topic, utilizes relevant evidence, and accurately cites neuroscientists' consensus, indicating a well-supported conclusion.",
+      "category": "neuroscience_myth",
+      "error": null
+    },
+    {
+      "id": "014",
+      "claim": "Mount Everest is the tallest mountain on Earth measured from sea level.",
+      "expected": "Likely True",
+      "predicted": "Likely True",
+      "exact_match": true,
+      "composite_score": 92,
+      "latency_ms": 12946,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI provided a clear and concise explanation, accurately assessing the reliability of the sources and acknowledging potential biases. The explanation effectively supported the predicted verdict of 'Likely True'.",
+      "category": "geography",
+      "error": null
+    },
+    {
+      "id": "015",
+      "claim": "Coffee stunts the growth of children and teenagers.",
+      "expected": "Likely Fake",
+      "predicted": "Likely Fake",
+      "exact_match": true,
+      "composite_score": 55,
+      "latency_ms": 12831,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "Excellent use of credible sources to support the verdict, and thorough examination of the evidence to determine its relevance to the claim. The explanation clearly and concisely summarizes the reasoning behind the verdict.",
+      "category": "health_myth",
+      "error": null
+    }
+  ]
+}

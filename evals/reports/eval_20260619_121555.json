@@ -1,0 +1,70 @@
+{
+  "run_at": "2026-06-19T12:15:55.614330",
+  "total_claims": 3,
+  "accuracy_pct": 66.7,
+  "avg_latency_ms": 5493,
+  "avg_reasoning_quality": 5.0,
+  "high_hallucination_count": 0,
+  "total_duration_s": 22,
+  "per_category": {
+    "popular_myth": {
+      "accuracy_pct": 0.0,
+      "total": 1,
+      "correct": 0
+    },
+    "conspiracy": {
+      "accuracy_pct": 100.0,
+      "total": 1,
+      "correct": 1
+    },
+    "history": {
+      "accuracy_pct": 100.0,
+      "total": 1,
+      "correct": 1
+    }
+  },
+  "results": [
+    {
+      "id": "012",
+      "claim": "Napoleon Bonaparte was unusually short for his time.",
+      "expected": "Likely Fake",
+      "predicted": "Likely True",
+      "exact_match": false,
+      "composite_score": 79,
+      "latency_ms": 5928,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI's reasoning is excellent, as it correctly identifies the majority of historical accounts and medical assessments supporting the claim. However, it fails to acknowledge that being 'slightly below average height' is not the same as being 'unusually short', which is the claim in question.",
+      "category": "popular_myth",
+      "error": null
+    },
+    {
+      "id": "008",
+      "claim": "5G towers spread the coronavirus by weakening immune systems.",
+      "expected": "Likely Fake",
+      "predicted": "Likely Fake",
+      "exact_match": true,
+      "composite_score": 87,
+      "latency_ms": 5440,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI provided a strong evidence-based reasoning, citing World Health Organization (WHO) and Centers for Disease Control and Prevention (CDC) as reputable sources, and correctly identified the consensus across the scientific community as robust and clear.",
+      "category": "conspiracy",
+      "error": null
+    },
+    {
+      "id": "001",
+      "claim": "The Eiffel Tower was built in 1889 for the World's Fair in Paris.",
+      "expected": "Likely True",
+      "predicted": "Likely True",
+      "exact_match": true,
+      "composite_score": 92,
+      "latency_ms": 5112,
+      "reasoning_quality": 5,
+      "hallucination_risk": "Low",
+      "reasoning_notes": "The AI effectively identified minor inconsistencies in the evidence, but also recognized the overall reliability of the source and the strong evidence supporting the claim. The AI's explanation is clear and concise, providing a good breakdown of the reasoning process.",
+      "category": "history",
+      "error": null
+    }
+  ]
+}

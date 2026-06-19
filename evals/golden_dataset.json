@@ -1,0 +1,107 @@
+[
+  {
+    "id": "001",
+    "claim": "The Eiffel Tower was built in 1889 for the World's Fair in Paris.",
+    "expected_verdict": "Likely True",
+    "category": "history",
+    "notes": "Well-documented historical fact"
+  },
+  {
+    "id": "002",
+    "claim": "NASA confirmed the Moon landing was staged in a Hollywood studio.",
+    "expected_verdict": "Likely Fake",
+    "category": "conspiracy",
+    "notes": "Classic conspiracy theory, thoroughly debunked"
+  },
+  {
+    "id": "003",
+    "claim": "Drinking bleach can cure COVID-19 according to WHO.",
+    "expected_verdict": "Likely Fake",
+    "category": "health_misinformation",
+    "notes": "Dangerous misinformation, WHO never said this"
+  },
+  {
+    "id": "004",
+    "claim": "Vaccines cause autism according to a 1998 Lancet study.",
+    "expected_verdict": "Likely Fake",
+    "category": "health_misinformation",
+    "notes": "The 1998 Wakefield study was retracted and Wakefield lost his medical license"
+  },
+  {
+    "id": "005",
+    "claim": "The Great Wall of China is visible from space with the naked eye.",
+    "expected_verdict": "Likely Fake",
+    "category": "popular_myth",
+    "notes": "Astronauts have confirmed this is not true"
+  },
+  {
+    "id": "006",
+    "claim": "Albert Einstein failed mathematics in school.",
+    "expected_verdict": "Likely Fake",
+    "category": "popular_myth",
+    "notes": "Einstein excelled at mathematics — this is a widespread myth"
+  },
+  {
+    "id": "007",
+    "claim": "The human body has 206 bones in adulthood.",
+    "expected_verdict": "Likely True",
+    "category": "science",
+    "notes": "Standard anatomical fact"
+  },
+  {
+    "id": "008",
+    "claim": "5G towers spread the coronavirus by weakening immune systems.",
+    "expected_verdict": "Likely Fake",
+    "category": "conspiracy",
+    "notes": "No scientific basis; 5G is radio waves and cannot transmit viruses"
+  },
+  {
+    "id": "009",
+    "claim": "Climate change is primarily caused by human activities according to scientific consensus.",
+    "expected_verdict": "Likely True",
+    "category": "science",
+    "notes": "97%+ scientific consensus per IPCC and major academies"
+  },
+  {
+    "id": "010",
+    "claim": "Eating carrots improves your night vision beyond normal levels.",
+    "expected_verdict": "Likely Fake",
+    "category": "health_myth",
+    "notes": "Carrots help prevent deficiency-related vision loss but don't enhance normal vision; WWII propaganda origin"
+  },
+  {
+    "id": "011",
+    "claim": "The Amazon rainforest produces 20% of the world's oxygen.",
+    "expected_verdict": "Uncertain",
+    "category": "science",
+    "notes": "Often cited but contested — the forest consumes roughly as much oxygen as it produces"
+  },
+  {
+    "id": "012",
+    "claim": "Napoleon Bonaparte was unusually short for his time.",
+    "expected_verdict": "Likely Fake",
+    "category": "popular_myth",
+    "notes": "Napoleon was 5'6\" — average height for a French man of his era; confusion from French/English inch units"
+  },
+  {
+    "id": "013",
+    "claim": "Humans only use 10% of their brain.",
+    "expected_verdict": "Likely Fake",
+    "category": "neuroscience_myth",
+    "notes": "Brain imaging shows we use virtually all brain regions"
+  },
+  {
+    "id": "014",
+    "claim": "Mount Everest is the tallest mountain on Earth measured from sea level.",
+    "expected_verdict": "Likely True",
+    "category": "geography",
+    "notes": "True when measured from sea level; Mauna Kea is taller from base"
+  },
+  {
+    "id": "015",
+    "claim": "Coffee stunts the growth of children and teenagers.",
+    "expected_verdict": "Likely Fake",
+    "category": "health_myth",
+    "notes": "No scientific evidence supports this; likely originates from early caffeine studies"
+  }
+]

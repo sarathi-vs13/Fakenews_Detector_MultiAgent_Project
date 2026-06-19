@@ -1,0 +1,216 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-06-19T13:03:04.122733",
+    "claim": "AIDS virus was first identified in cats",
+    "verdict": "Uncertain",
+    "explanation": "The claim that the AIDS virus was first identified in cats is partially true, but the primary source of the AIDS virus in humans remains unknown, and FIV and HIV are distinct viruses.",
+    "scores": {
+      "evidence_confidence": 90,
+      "source_score": 95,
+      "critic_score": 40,
+      "composite": 77
+    },
+    "source_reliability": "High",
+    "sources": [
+      {
+        "name": "Centers for Disease Control and Prevention (CDC)",
+        "credibility": "High"
+      },
+      {
+        "name": "World Health Organization (WHO)",
+        "credibility": "High"
+      },
+      {
+        "name": "Scientific studies on FIV and HIV",
+        "credibility": "Medium"
+      },
+      {
+        "name": "Luc Montagnier and his team",
+        "credibility": "High"
+      }
+    ],
+    "evidence": "The FIV (Feline Immunodeficiency Virus) is a lentivirus that affects cats. While FIV is similar to HIV (Human Immunodeficiency Virus) and shares some similarities with the AIDS virus, HIV was first identified in humans in the early 1980s. The first reported case of HIV was in 1981, and the virus was later isolated in 1983 by Luc Montagnier and his team. FIV, on the other hand, was identified in cats in the 1980s, but it was not discovered before HIV.",
+    "critic_challenges": "The claim that the AIDS virus was first identified in cats is partially true, but it doesn't consider that FIV and HIV are distinct viruses. The primary source of the AIDS virus in humans is still unknown, and FIV is not a direct equivalent.",
+    "latency_ms": 6604.57
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-06-19T13:03:56.085717",
+    "claim": "AIDS virus was first identified in dinosaur fossils",
+    "verdict": "Likely Fake",
+    "explanation": "The claim contradicts established scientific facts, as dinosaurs and humans are separated by 65 million years, and the origin of HIV is linked to primate retroviruses. The evidence provided confirms the impossibility of finding the AIDS virus in dinosaur fossils. This composite score of 70% further supports the likelihood of the claim being false.",
+    "scores": {
+      "evidence_confidence": 100,
+      "source_score": 100,
+      "critic_score": 0,
+      "composite": 70
+    },
+    "source_reliability": "High",
+    "sources": [
+      {
+        "name": "National Institutes of Health (NIH)",
+        "credibility": "High"
+      },
+      {
+        "name": "Journal of Virology",
+        "credibility": "High"
+      },
+      {
+        "name": "American Journal of Primatology",
+        "credibility": "High"
+      },
+      {
+        "name": "PLOS Pathogens",
+        "credibility": "High"
+      },
+      {
+        "name": "Nature",
+        "credibility": "High"
+      }
+    ],
+    "evidence": "The AIDS virus (HIV) was identified in 1983 and is a lentivirus that infects humans. It is not found in dinosaur fossils. The first identified simian immunodeficiency virus (SIV), a precursor to HIV, was found in chimpanzees in 1987. Dinosaurs became extinct at the end of the Cretaceous period, about 65 million years ago, while the earliest known human and primate retroviruses date back to around 10-15 million years ago.",
+    "critic_challenges": "The claim is a blatant misrepresentation of scientific facts. Dinosaurs and humans are separated by 65 million years, making it impossible for AIDS virus to be found in dinosaur fossils. The evidence provided clearly shows the origin of HIV is linked to primate retroviruses, not dinosaurs.",
+    "latency_ms": 7346.01
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-06-19T13:12:33.106821",
+    "claim": "Ball point pens were used 600 years ago in China ",
+    "verdict": "Likely Fake",
+    "explanation": "Lack of credible evidence and contradiction with established historical records on ancient Chinese writing instruments strongly suggest that the claim is false.",
+    "scores": {
+      "evidence_confidence": 100,
+      "source_score": 100,
+      "critic_score": 20,
+      "composite": 76
+    },
+    "source_reliability": "High",
+    "sources": [
+      {
+        "name": "L\u00e1szl\u00f3 B\u00edr\u00f3",
+        "credibility": "High"
+      },
+      {
+        "name": "Historical records of ancient China",
+        "credibility": "Medium"
+      },
+      {
+        "name": "The British Library",
+        "credibility": "High"
+      }
+    ],
+    "evidence": "There is no credible evidence to support the claim that ballpoint pens were used 600 years ago in China. The earliest known evidence of ballpoint pens dates back to the 1930s with the invention of the first commercially viable ballpoint pen by L\u00e1szl\u00f3 B\u00edr\u00f3, a Hungarian journalist. Prior to this, writing instruments used in ancient China included brushes, seals, and ink sticks.",
+    "critic_challenges": "Lack of credible evidence to support the claim, and a clear contradiction with established historical records on ancient Chinese writing instruments. The provided evidence also does not address the fact that the invention of ballpoint pens is well-documented to have occurred in the 20th century.",
+    "latency_ms": 6348.32
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-06-19T13:21:40.622290",
+    "claim": "As of 2026, Microsoft is is the most valued company in the world",
+    "verdict": "Uncertain",
+    "explanation": "The claim that Microsoft is the most valued company in the world as of 2026 is uncertain due to the lack of up-to-date information on market capitalization, and the potential impact of market fluctuations and other key metrics on company valuations. While Microsoft was highly valued in 2023, there is no concrete evidence to support the claim as of 2026. This uncertainty is compounded by the critic's valid challenges to the claim's assumptions and the speculative nature of market predictions.",
+    "scores": {
+      "evidence_confidence": 60,
+      "source_score": 90,
+      "critic_score": 40,
+      "composite": 64
+    },
+    "source_reliability": "High",
+    "sources": [
+      {
+        "name": "Forbes Global 2000",
+        "credibility": "High"
+      },
+      {
+        "name": "Yahoo Finance",
+        "credibility": "High"
+      },
+      {
+        "name": "Bloomberg",
+        "credibility": "High"
+      },
+      {
+        "name": "MarketWatch",
+        "credibility": "High"
+      }
+    ],
+    "evidence": "As of 2023, Microsoft's market capitalization was over $2 trillion, making it one of the most valuable companies in the world. However, recent market fluctuations and changes in company valuations may impact this ranking. Apple, Amazon, Alphabet (Google), and Tesla have also consistently held high market capitalizations.",
+    "critic_challenges": "The claim assumes that market capitalization is the sole determining factor for a company's value, and does not account for other key metrics such as revenue growth, profit margins, and debt-to-equity ratios. Moreover, the sources do not provide an update on Microsoft's market capitalization as of 2026, and the impact of market fluctuations is only speculative.",
+    "latency_ms": 7021.41
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-06-19T13:24:31.984700",
+    "claim": "Chennai is the most densely populated city in india",
+    "verdict": "Likely Fake",
+    "explanation": "The provided evidence contradicts the claim, supporting Delhi as the most densely populated city in India, and thus the claim is likely false.",
+    "scores": {
+      "evidence_confidence": 95,
+      "source_score": 95,
+      "critic_score": 20,
+      "composite": 72
+    },
+    "source_reliability": "High",
+    "sources": [
+      {
+        "name": "2021 Census of India",
+        "credibility": "High"
+      }
+    ],
+    "evidence": "According to the 2021 census, Delhi is the most densely populated city in India with a density of 11,300 people per square kilometer. Chennai, however, ranks 4th with a density of 4,650 people per square kilometer. [Source: 2021 Census of India]",
+    "critic_challenges": "The claim contradicts the evidence provided. The evidence states Delhi as the most densely populated city in India, not Chennai.",
+    "latency_ms": 5864.69
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-06-19T13:31:00.281800",
+    "claim": "Amazon to open mutiple GCCs in Tamilnadu in 2026",
+    "verdict": "Uncertain",
+    "explanation": "While there is no available information suggesting multiple GCCs in Tamil Nadu for 2026, the absence of information does not confirm a lack of plans, and recent developments may have occurred after the knowledge cutoff in 2023.",
+    "scores": {
+      "evidence_confidence": 80,
+      "source_score": 95,
+      "critic_score": 40,
+      "composite": 73
+    },
+    "source_reliability": "High",
+    "sources": [
+      {
+        "name": "Amazon Official Website",
+        "credibility": "High"
+      },
+      {
+        "name": "Multiple GCC locations listed on Amazon's official website",
+        "credibility": "High"
+      },
+      {
+        "name": "Tamil Nadu Government Official Website",
+        "credibility": "Medium"
+      },
+      {
+        "name": "Local Indian News Outlets",
+        "credibility": "Medium"
+      },
+      {
+        "name": "Unreliable Social Media Sources",
+        "credibility": "Low"
+      },
+      {
+        "name": "Unofficial Tamil Nadu Government Sources",
+        "credibility": "Low"
+      },
+      {
+        "name": "Anonymous Online Forums",
+        "credibility": "Low"
+      },
+      {
+        "name": "Multiple news articles from reputable news outlets",
+        "credibility": "High"
+      }
+    ],
+    "evidence": "Amazon did not officially announce any plans to open multiple Global Command Centers (GCCs) in Tamil Nadu, India in 2026. As of my knowledge cutoff in 2023, Amazon has multiple GCCs worldwide, but there is no available information suggesting a specific expansion in Tamil Nadu for 2026.",
+    "critic_challenges": "Evidence relies on a knowledge cutoff in 2023, which may not reflect recent or future developments. No official announcement from Amazon does not necessarily confirm or deny future plans. The absence of information does not necessarily imply a lack of plans.",
+    "latency_ms": 6200.13
+  }
+]
