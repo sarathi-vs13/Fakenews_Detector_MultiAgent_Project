@@ -1,6 +1,8 @@
-# 🔬 Fakenews_Detector_MultiAgent_Project
+# 🔬 Fake News Detector — Multi-Agent AI Pipeline
 
-A production-grade fake news detection system built with **LangGraph**, **FastAPI**, and **SQLite**. Four specialized AI agents collaborate to analyse any claim and return a structured verdict with evidence, source credibility scores, and critic challenges.
+A multi-agent AI pipeline that fact-checks any claim using four LangGraph agents — evidence retrieval, source verification, critic, and final verdict — served via FastAPI with a Streamlit UI, SQLite storage, and an LLM-as-judge eval pipeline.
+
+![Streamlit UI](assets/screenshot-ui.png)
 
 ---
 
@@ -28,6 +30,19 @@ Composite = (Evidence × 0.35) + (Source × 0.35) + (Critic × 0.30)
 
 ---
 
+## Demo
+
+### Streamlit UI
+![Streamlit UI — claim analysis](assets/screenshot-ui.png)
+
+### FastAPI Docs
+![FastAPI interactive docs](assets/screenshot-docs.png)
+
+### Structured logs
+![Terminal showing JSON logs](assets/screenshot-logs.png)
+
+---
+
 ## Project structure
 
 ```
@@ -51,6 +66,11 @@ Fakenews_Detector_MultiAgent_Project/
 │   ├── golden_dataset.json    # 15 labeled claims, ground truth
 │   ├── run_evals.py           # Eval pipeline + LLM-as-judge scorer
 │   └── reports/               # Auto-generated eval reports (JSON)
+│
+├── assets/                    # Screenshots for README
+│   ├── screenshot-ui.png
+│   ├── screenshot-docs.png
+│   └── screenshot-logs.png
 │
 └── data/                      # Auto-created on first run
     ├── history.json           # Every claim saved as JSON
@@ -229,13 +249,11 @@ Live metrics available at `GET /metrics`:
 Every analysed claim is saved to two places simultaneously:
 
 - **`data/history.json`** — human-readable, open in any text editor
-- **`data/fakenews.db`** — SQLite, queryable with DB Browser for SQLite or the VS Code SQLite Viewer extension
+- **`data/fakenews.db`** — SQLite, queryable with [DB Browser for SQLite](https://sqlitebrowser.org) or the VS Code SQLite Viewer extension
 
-The `feedback` table in SQLite stores human corrections and is used to track real-world accuracy over time.
+The `feedback` table in SQLite stores human corrections and tracks real-world accuracy over time.
 
 ---
-
-
 
 ## License
 
