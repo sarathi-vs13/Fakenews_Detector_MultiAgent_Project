@@ -1,4 +1,4 @@
-# 🔬 Fake News Detector — Multi-Agent AI Pipeline
+# Fake News Detector — Multi-Agent AI Pipeline
 
 A multi-agent AI pipeline that fact-checks any claim using four LangGraph agents — evidence retrieval, source verification, critic, and final verdict — served via FastAPI with a Streamlit UI, SQLite storage, and an LLM-as-judge eval pipeline.
 
@@ -16,10 +16,10 @@ Claim → Evidence Retrieval → Source Verification → Critic → Final Verdic
 
 | Agent | Role |
 |---|---|
-| 🔍 Evidence Retrieval | Searches for facts that support or contradict the claim |
-| 🔎 Source Verification | Identifies credible institutions and scores their reliability |
-| ⚔️ Critic | Challenges the findings — flags bias, fallacies, missing context |
-| ✅ Final Verdict | Synthesises all scores into a weighted verdict |
+|  Evidence Retrieval | Searches for facts that support or contradict the claim |
+|  Source Verification | Identifies credible institutions and scores their reliability |
+|  Critic | Challenges the findings — flags bias, fallacies, missing context |
+|  Final Verdict | Synthesises all scores into a weighted verdict |
 
 **Verdict options:** `Likely True` · `Uncertain` · `Likely Fake`
 
