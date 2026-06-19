@@ -78,8 +78,8 @@ Fakenews_Detector_MultiAgent_Project/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/fakenews-detector.git
-cd fakenews-detector
+git clone https://github.com/sarathi-vs13/Fakenews_Detector_MultiAgent_Project.git
+cd Fakenews_Detector_MultiAgent_Project
 ```
 
 ### 2. Create a virtual environment
